@@ -22,8 +22,28 @@ public class TestClass1 {
 		System.out.println("TestClass1의 메소드");
 	}
 	
+	// hello() 메소드 이름은 다 같지만 ()안에
+	// 매개변수(파라메터)가 다른 것(구분은 매개변수로)
+	// 이 것을 오버로딩이라고 한다.
 	public void hello() {
 		System.out.println("Hello World!!");
 	}
-
+	
+	public void hello(String name) {
+//		String name = "송태민";
+//		name = "송태민";
+		System.out.println("안녕!! " + name);
+	}
+	public void hello(int num) {
+		System.out.println("안녕!! " + num);
+	}
+	
+	
+	
+	public void hello1() {
+		System.out.println("안녕!! 고도현");
+	}
+	public void hello2() {
+		System.out.println("안녕!! 하성민");
+	}
 }
